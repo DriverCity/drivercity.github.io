@@ -15,19 +15,22 @@
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 	</head>
 <style>
-#header {
+#main {
     position: relative;
+    min-height: 150px;
 	
   }
 
-#header nav{
+#main nav{
 position: absolute;
-bottom: 0px;
-left:50%;
+width: 750px;
+bottom: 10px;
+float:left;
+left:49%;
 
 
  }
-#header nav ul {
+#main nav ul {
 			display: -moz-flex;
 			display: -webkit-flex;
 			display: -ms-flex;
@@ -43,17 +46,17 @@ left:50%;
 			
 		}
 
-			#header nav ul li {
+			#main nav ul li {
 				padding-left: 0;
 				border-left: solid 1px #7C7272;
 				display:inline;
 			}
 
-				#header nav ul li:first-child {
+				#main nav ul li:first-child {
 					border-left: 0;
 				}
 
-				#header nav ul li a {
+				#main nav ul li a {
 					
 					min-width: 7.5rem;
 					height: 2.75rem;
@@ -66,11 +69,11 @@ left:50%;
 					border-bottom: 0;
 				}
 
-					#header nav ul li a:hover {
+					#main nav ul li a:hover {
 						background-color: rgba(000, 000, 000, 0.075);
 					}
 
-					#header nav ul li a:active {
+					#main nav ul li a:active {
 						background-color: rgba(000, 000, 000, 0.175);
 					}
 
@@ -80,43 +83,75 @@ left:50%;
 	<body>
 
 		<!-- Header -->
-			<div id="header">
-				<span class="logo icon fa-car"></span>
-				<h1>DriverCity</h1>
-				
-				
-			<nav>
-							<ul>
-							
-								<li><a href="team.html">Team</a></li>
-								<li><a href="project.html">Project</a></li>
-								<li><a href="ss.html">Screenshots</a></li>
-								<li><a href="technologies.html">Technologies</a></li>
-								<li><a href="contact.html">Contact</a></li>
-								
-							</ul>
-						</nav>
-					
-			</div>
+			
 			
 			
 		<!-- Main -->
 			<div id="main">
 
 				<header class="major container 75%">
-					<h2>Project <span style="color:#6eca6d;">SPARK</span>
-					<br />
-					Next generation 
-					<br />
-					open-space city parking</h2>
+					<h2>Screenshots</h2>
 					<!--
 					<p>Tellus erat mauris ipsum fermentum<br />
 					etiam vivamus nunc nibh morbi.</p>
 					-->
-					
+					<nav>
+							<ul>
+							
+								<li><a href="index.html">Home</a></li>
+								<li><a href="project.html">Project</a></li>
+								<li><a href="team.html">Team </a></li>
+								<li><a href="technologies.html">Technologies</a></li>
+								<li><a href="contact.html">Contact</a></li>
+								
+							</ul>
+						</nav>
 				</header>
+				<header class="major container 20%">
+				<p> Below are Screenshots of our work, keep in mind these are subject to change. </p>
+			</header>
+				
+ 
+					<section class="feature left">
+						<div class="image"><img src="images/menu2.png" alt="" /></div>
+						<div class="content">
+							
+							<p>
+								<strong>Menu </strong>
+								
+							</p>
+						</div>
+						
+					</section>
+					<section class="feature right">
+						<a href="#" class="image"><img src="images/settings.png" alt="" /></a>
+						<div class="content">
+							
+							<p>
+								<strong>Parking confirmation screen </strong>
+								
+							</p>
+						</div>
+					</section>
+					
+					<section class="feature left">
+						<a href="#" class="image"><img src="images/car.png" alt="" /></a>
+						<div class="content">
+							
+							<p>
+								<strong>Car settings </strong>
+								
+							</p>
+						</div>
+						
+					</section>
+					
+			
 
-			</div>
+				
+				
+				</div>
+
 
 		<!-- Footer -->
 			<div id="footer">
